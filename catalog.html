@@ -8,10 +8,10 @@
   <body>
 
     <header class="main-header">
-      <a class="main-logo">Device</a>
+      <a class="main-logo" href="index.html">Device</a>
       <p class="search">Поиск по сайту</p>
       <ul class="user-navigation">
-        <li>Войти</li>
+        <li class="login-link">Войти</li>
       </ul>
       <p class="compare">Сравнить</p>
       <p class="cart">Корзина</p>
@@ -47,7 +47,63 @@
       </nav>
     </header>
 
-    <main>
+    <main class="container">
+
+      <h1 class="page-title">Моноподы для селфи</h1>
+
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="#">Каталог товаров</a></li>
+        <li class="breadcrumbs-current">Моноподы для селфи</li>
+      </ul>
+
+      <section class="filters">
+        <h2>Фильтр:</h2>
+        <!-- Форма отбора -->
+      </section>
+
+      <section class="sort">
+        <h2>Сортировка:</h2>
+        <ul class="sort-list">
+          <li class="sort-current">По цене</li>
+          <li>По типу</li>
+          <li>По популярности</li>
+        </ul>
+      </section>
+
+      <section class="catalog">
+        <h2 class="visually-hidden">Список селфи-палок</h2>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <h3><a href="#">Любительская селфи-палка</a></h3>
+            <img src="img/item-1.jpeg" alt="Любительская селфи-палка">
+            <p class="price">500 руб.</p>
+          </li>
+          <li class="catalog-item">
+            <h3><a href="#">Профессиональная селфи-палка</a></h3>
+            <img src="img/item-2.jpeg" alt="Профессиональная селфи-палка">
+            <p class="price">1500 руб.</p>
+          </li>
+          <li class="catalog-item">
+            <h3><a href="#">Непотопляемая селфи-палка</a></h3>
+            <img src="img/item-3.jpeg" alt="Непотопляемая селфи-палка">
+            <p class="price">2500 руб.</p>
+          </li>
+          <li class="catalog-item">
+            <h3><a href="#">Селфи-палка «Следуй за мной»</a></h3>
+            <img src="img/item-4.jpeg" alt="Селфи-палка «Следуй за мной»">
+            <p class="price">4900 руб.</p>
+          </li>
+        </ul>
+
+        <ul class="pagination">
+          <li class="pagination-item"><a href="#">Назад</a></li>
+          <li class="pagination-item pagination-item-current"><a>1</a></li>
+          <li class="pagination-item"><a href="#">2</a></li>
+          <li class="pagination-item"><a href="#">3</a></li>
+          <li class="pagination-item"><a href="#">Вперед</a></li>
+        </ul>
+      </section>
 
     </main>
 
