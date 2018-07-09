@@ -121,27 +121,17 @@
             </table>
           </li>
         </ul>
-
-      <form action="hit-form" action="https://echo.htmlacademy.ru" method="post">
-        <fieldset>
-          <legend class="visually-hidden">Переключатель слайдера</legend>
-          <ul>
-            <li class="hit-option">
-              <input class="visually-hidden hit-input hit-radio" type="radio" name="hit-element" id="hit-element-1" value="element-1" checked>
-              <label class="visually-hidden" for="hit-element-1">Хитовый товар №1</label>
-            </li>
-            <li class="hit-option">
-              <input class="visually-hidden hit-input hit-radio" type="radio" name="hit-element" id="hit-element-2" value="element-2">
-              <label class="visually-hidden" for="hit-element-2">Хитовый товар №2</label>
-            </li>
-            <li class="hit-option">
-              <input class="visually-hidden hit-input hit-radio" type="radio" name="hit-element" id="hit-element-3" value="element-3">
-              <label class="visually-hidden" for="hit-element-3">Хитовый товар №3</label>
-            </li>
-          </ul>
-        </fieldset>
-      </form>
-
+        <ul class="hit-slider">
+          <li class="hit-option">
+            <a href="#" class="hit-element">Хитовый товар №1</a>
+          </li>
+          <li class="hit-option">
+            <a href="#" class="hit-element">Хитовый товар №2</a>
+          </li>
+          <li class="hit-option">
+            <a href="#" class="hit-element">Хитовый товар №3</a>
+          </li>
+        </ul>
       </section>
 
       <section class="popular-category">
@@ -177,10 +167,12 @@
 
       <section class="logotypes">
         <h2 class="visually-hidden">Логотипы производителей товаров</h2>
-        <p><img src="img/logo-1.jpg" width="260" height="100" alt="Логотип DJI"></p>
-        <p><img src="img/logo-2.jpg" width="260" height="100" alt="Логотип SP Gadgets"></p>
-        <p><img src="img/logo-3.jpg" width="260" height="100" alt="Логотип GoPro"></p>
-        <p><img src="img/logo-4.jpg" width="260" height="100" alt="Логотип VIVE"></p>
+        <ul>
+          <li><a href=""><img src="img/logo-1.jpg" width="260" height="100" alt="Логотип DJI"></a></li>
+          <li><a href=""><img src="img/logo-2.jpg" width="260" height="100" alt="Логотип SP Gadgets"></a></li>
+          <li><a href=""><img src="img/logo-3.jpg" width="260" height="100" alt="Логотип GoPro"></a></li>
+          <li><a href=""><img src="img/logo-4.jpg" width="260" height="100" alt="Логотип VIVE"></a></li>
+        </ul>
       </section>
 
       <section class="info">
@@ -212,19 +204,23 @@
         <a class="compare" href="#">Сравнить</a>
         <a class="cart" href="#">Корзина</a>
       </div>
-      <span class="address">г. Москва, ул. Строителей, 15</span>
-      <ul class="services-list">
-        <li class="services-item"><a href="#">Доставка</a></li>
-        <li class="services-item"><a href="#">Гарантия</a></li>
-        <li class="services-item"><a href="#">Кредит</a></li>
-      </ul>
-      <span class="phone">Тел.: +7 (495) 495-95-95</span>
-      <ul class="footer-social">
-        <li><a href="#" class="social-btn social-btn-fb">Facebook</a></li>
-        <li><a href="#" class="social-btn social-btn-in">Instagram</a></li>
-        <li><a href="#" class="social-btn social-btn-tw">Twitter</a></li>
-      </ul>
-      <a href="https://htmlacademy.ru/intensive/htmlcss" class="html-academy">HTML Academy</a>
+      <div class="footer-middle">
+        <span class="address">г. Москва, ул. Строителей, 15</span>
+        <ul class="services-list">
+          <li class="services-item"><a href="#">Доставка</a></li>
+          <li class="services-item"><a href="#">Гарантия</a></li>
+          <li class="services-item"><a href="#">Кредит</a></li>
+        </ul>
+        <span class="phone">Тел.: +7 (495) 495-95-95</span>
+      </div>
+      <div class="footer-bottom">
+        <ul class="footer-social">
+          <li><a href="#" class="social-btn social-btn-fb">Facebook</a></li>
+          <li><a href="#" class="social-btn social-btn-in">Instagram</a></li>
+          <li><a href="#" class="social-btn social-btn-tw">Twitter</a></li>
+        </ul>
+        <a href="https://htmlacademy.ru/intensive/htmlcss" class="html-academy">HTML Academy</a>
+      </div>
     </footer>
 
     <section class="modal modal-write-us">

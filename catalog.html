@@ -113,29 +113,22 @@
         </form>
       </section>
 
-      <div class="sort">
-        <fieldset>
-          <legend>Сортировка:</legend>
-          <ul class="sort-list">
-            <li class="sort-current"><button class="button" type="button sort-by-price">По цене</button></li>
-            <li><button class="button" type="button sort-by-type">По типу</button></li>
-            <li><button class="button" type="button sort-by-popular">По популярности</button></li>
-          </ul>
-        </fieldset>
-        <fieldset>
-          <legend class="visually-hidden">Сортировка:</legend>
-          <ul>
-            <li class="sort-option">
-              <input class="visually-hidden sort-input sort-radio" type="radio" name="sort-increase-decrease" id="sort-decrease" value="decrease">
-              <label class="visually-hidden" for="sort-decrease">По возрастанию</label>
-            </li>
-            <li class="sort-option">
-              <input class="visually-hidden sort-input sort-radio" type="radio" name="sort-increase-decrease" id="sort-increase" value="increase" checked>
-              <label class="visually-hidden" for="sort-increase">По убыванию</label>
-            </li>
-          </ul>
-        </fieldset>
-      </div>
+      <section class="sort">
+        <h2>Сортировка:</h2>
+        <ul class="sort-list">
+          <li class="sort-current"><a class="button sort-by-price" href="#">По цене</a></li>
+          <li><a class="button sort-by-type" href="#">По типу</a></li>
+          <li><a class="button sort-by-popular" href="#">По популярности</a></li>
+        </ul>
+        <ul>
+          <li class="sort-option">
+            <a href="#" class="sort-increase">По возрастанию</a>
+          </li>
+          <li class="sort-option">
+            <a href="#" class="sort-decrease">По убыванию</a>
+          </li>
+        </ul>
+      </section>
 
       <section class="catalog">
         <h2 class="visually-hidden">Список селфи-палок</h2>
