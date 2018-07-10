@@ -1,0 +1,211 @@
+@font-face{
+  font-family: 'Gilroy ExtraBold';
+  src: url('../fonts/gilroyextrabold.woff2') format('woff2'),
+       url('../fonts/gilroyextrabold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Gilroy Light';
+  src: url('../fonts/gilroylight.woff2') format('woff2'),
+       url('../fonts/gilroylight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #464646;
+  letter-spacing: 0.01em;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: #f7e296;
+}
+
+.main-header a {
+  color: #000000;
+}
+
+.main-header a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+.main-header a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* Стилизация формы поиска */
+.search-form input[type="search"] {
+  font: inherit;
+  color: rgba(0, 0, 0, 0.3);
+
+  background-color: #f7e296;
+  border: none;
+}
+
+.search-form input[type="search"]:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.search-form input[type="search"]:focus {
+  border-bottom: 2px solid #000000;
+  color: #000000;
+}
+
+.search-form input[type="search"]:focus ~ .button.visually-hidden {
+  font: inherit;
+
+  background-color: #f7e296;
+  border: 2px solid #000000;
+  visibility: visible;
+}
+
+.search-form input[type="search"]:focus ~ .button.visually-hidden:hover {
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.search-form input[type="search"]:focus ~ .button.visually-hidden:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+/* Конец Стилизация формы поиска */
+
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.site-navigation-item > a {
+  font-family: 'Gilroy ExtraBold', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  letter-spacing: 0.2em;
+}
+
+.catalog li {
+  list-style: none;
+  text-transform: none;
+}
+
+.hit-list {
+  list-style: none;
+}
+
+.hit-item-title {
+  font-family: 'Gilroy ExtraBold', Arial, sans-serif;
+  font-size: 47px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.button,
+.button:hover,
+.button:active {
+  font-family: 'Gilroy ExtraBold', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  letter-spacing: 0.2em;
+
+}
+
+.button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.hit-item thead {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.hit-item tbody {
+  font-family: 'Gilroy Light', Arial, sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.popular-category-list {
+  list-style: none;
+}
+
+.popular-category a,
+.popular-category a:hover {
+  font-family: 'Gilroy ExtraBold', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.popular-category a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.services h3 {
+  font-family: 'Gilroy ExtraBold', Arial, sans-serif;
+  font-size: 47px;
+  color: #000000;
+}
+
+.services-list {
+  list-style: none;
+}
+
+.info h2,
+.contacts h2 {
+  font-family: 'Gilroy ExtraBold', Arial, sans-serif;
+  font-size: 47px;
+  color: #000000;
+}
+
+.transport-company-list {
+  font-family: 'Gilroy ExtraBold', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.main-footer {
+  background-color: #464646;
+}
+
+.main-footer a {
+  color: #ffffff;
+}
+
+.main-footer a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-footer a:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-top a {
+  line-height: 36px;
+}
+
+.services-item a {
+  font-family: 'Gilroy ExtraBold', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
